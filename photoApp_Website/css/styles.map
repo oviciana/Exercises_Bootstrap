@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		"* {\r\n\tborder: 1px solid black;\r\n\tpadding: 0px;\r\n//  background-color: none !important;\r\n//  background-image: none !important;\r\n}\r\n\r\n\r\n.jumbotron {\r\n  background-image: url('../img/site_showcase_bg.jpg');\r\n//  height: 400px;\r\n  color: white;\r\n  h1 span { \r\n    color: #1caa98; \r\n  }\r\n  padding: 0px;\r\n  margin: 10px;\r\n}\r\n\r\n.container {\r\n\tmargin: 0 auto;\r\n}\r\n\r\n.mainSection {\r\n\tcolor: black;\r\n}\r\n\r\n.bottonSection {\r\n  color: white;\r\n  background-color: #1CAA98;\r\n}\r\n\r\n.bottonText {\r\n  padding-left: 10%;\r\n}\r\n\r\n.image-border {\r\n    border-color: #E8E8E8;\r\n    border-width: 2px;\r\n    border-style: solid;\r\n}\r\n\r\n.navbar {\r\n\tmargin: 0;\r\n}\r\n\r\n.img-link-app {\r\n  display: block;\r\n}\r\n\r\n.img-link-apple, .img-link-google {\r\n  width: 250px;\r\n  padding: 10px;\r\n}\r\n\r\n@media (max-width: 1000px) {\r\n  .jumbotron{\r\n    margin: 10px;\r\n\r\n    .img-hand-phone {\r\n      display: none;\r\n    }\r\n  }\r\n}\r\n\r\n@media (max-width: 579px) {\r\n  .jumbotron{\r\n    background-image: none;\r\n    background-color: #1B222A;\r\n    text-align: center;\r\n\r\n    .img-link-apple {\r\n      margin: 0 auto;\r\n    }\r\n\r\n    .img-link-google {\r\n      margin: 0 auto;\r\n    }\r\n  }\r\n}\r\n\r\n\r\n"
+	],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACD,MAAM,EAAE,eAAgB;EACxB,OAAO,EAAE,GAAI;CAGb;;;AAGD,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,kCAAG;EAErB,KAAK,EAAE,KAAM;EAIb,OAAO,EAAE,GAAI;EACb,MAAM,EAAE,IAAK;CACd;;;AATD,AAIK,UAJK,CAIR,EAAE,CAAC,IAAI,CAAC;EACN,KAAK,EAAE,OAAQ;CAChB;;;AAKH,AAAA,UAAU,CAAC;EACV,MAAM,EAAE,MAAO;CACf;;;AAED,AAAA,YAAY,CAAC;EACZ,KAAK,EAAE,KAAM;CACb;;;AAED,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,KAAM;EACb,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAA,WAAW,CAAC;EACV,YAAY,EAAE,GAAI;CACnB;;;AAED,AAAA,aAAa,CAAC;EACV,YAAY,EAAE,OAAQ;EACtB,YAAY,EAAE,GAAI;EAClB,YAAY,EAAE,KAAM;CACvB;;;AAED,AAAA,OAAO,CAAC;EACP,MAAM,EAAE,CAAE;CACV;;;AAED,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,KAAM;CAChB;;;AAED,AAAA,eAAe,EAAE,AAAA,gBAAgB,CAAC;EAChC,KAAK,EAAE,KAAM;EACb,OAAO,EAAE,IAAK;CACf;;AAED,MAAM,EAAL,SAAS,EAAE,MAAM;;EAChB,AAAA,UAAU,CAAA;IACR,MAAM,EAAE,IAAK;GAKd;;EAND,AAGE,UAHQ,CAGR,eAAe,CAAC;IACd,OAAO,EAAE,IAAK;GACf;;;AAIL,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAA,UAAU,CAAA;IACR,gBAAgB,EAAE,IAAK;IACvB,gBAAgB,EAAE,OAAQ;IAC1B,UAAU,EAAE,MAAO;GASpB;;EAZD,AAKE,UALQ,CAKR,eAAe,CAAC;IACd,MAAM,EAAE,MAAO;GAChB;;EAPH,AASE,UATQ,CASR,gBAAgB,CAAC;IACf,MAAM,EAAE,MAAO;GAChB",
+	"names": []
+}

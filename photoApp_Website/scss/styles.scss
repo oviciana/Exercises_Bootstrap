@@ -1,0 +1,82 @@
+* {
+	border: 1px solid black;
+	padding: 0px;
+//  background-color: none !important;
+//  background-image: none !important;
+}
+
+
+.jumbotron {
+  background-image: url('../img/site_showcase_bg.jpg');
+//  height: 400px;
+  color: white;
+  h1 span { 
+    color: #1caa98; 
+  }
+  padding: 0px;
+  margin: 10px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.mainSection {
+	color: black;
+}
+
+.bottonSection {
+  color: white;
+  background-color: #1CAA98;
+}
+
+.bottonText {
+  padding-left: 10%;
+}
+
+.image-border {
+    border-color: #E8E8E8;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.img-link-app {
+  display: block;
+}
+
+.img-link-apple, .img-link-google {
+  width: 250px;
+  padding: 10px;
+}
+
+@media (max-width: 1000px) {
+  .jumbotron{
+    margin: 10px;
+
+    .img-hand-phone {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 579px) {
+  .jumbotron{
+    background-image: none;
+    background-color: #1B222A;
+    text-align: center;
+
+    .img-link-apple {
+      margin: 0 auto;
+    }
+
+    .img-link-google {
+      margin: 0 auto;
+    }
+  }
+}
+
+

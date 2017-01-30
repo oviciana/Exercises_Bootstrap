@@ -1,7 +1,92 @@
-.jumbotron {
-  background-image: url('../img/site_showcase_bg.jpg');
-  height: 450px;
+/* line 1, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+* {
+  border: 1px solid black;
+  padding: 0px;
 }
 
-.jumbotron { color: white; }
-.jumbotron h1 span { color: #1caa98; }
+/* line 9, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.jumbotron {
+  background-image: url("../img/site_showcase_bg.jpg");
+  color: white;
+  padding: 0px;
+  margin: 10px;
+}
+
+/* line 13, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.jumbotron h1 span {
+  color: #1caa98;
+}
+
+/* line 20, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.container {
+  margin: 0 auto;
+}
+
+/* line 24, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.mainSection {
+  color: black;
+}
+
+/* line 28, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.bottonSection {
+  color: white;
+  background-color: #1CAA98;
+}
+
+/* line 33, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.bottonText {
+  padding-left: 10%;
+}
+
+/* line 37, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.image-border {
+  border-color: #E8E8E8;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* line 43, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.navbar {
+  margin: 0;
+}
+
+/* line 47, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.img-link-app {
+  display: block;
+}
+
+/* line 51, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+.img-link-apple, .img-link-google {
+  width: 250px;
+  padding: 10px;
+}
+
+@media (max-width: 1000px) {
+  /* line 57, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+  .jumbotron {
+    margin: 10px;
+  }
+  /* line 60, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+  .jumbotron .img-hand-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 579px) {
+  /* line 67, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+  .jumbotron {
+    background-image: none;
+    background-color: #1B222A;
+    text-align: center;
+  }
+  /* line 72, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+  .jumbotron .img-link-apple {
+    margin: 0 auto;
+  }
+  /* line 76, C:/Skylab/Exercises_Bootstrap/photoApp_Website/scss/styles.scss */
+  .jumbotron .img-link-google {
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=../css/styles.map */
